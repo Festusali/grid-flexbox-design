@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+h1, h3 {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+}
+
+center h1 {
+    color: hsl(179, 100%, 13%);
+    text-decoration: underline hsl(179, 100%, 13%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    border-radius: .2em;
+}
+
+.car {
+    max-width: 375px;
+    padding: 40px;
+}
+
+.car p {
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-bottom: 50px;
+}
+
+.orange {
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: .3em;
+    border-bottom-left-radius: .3em;
+}
+
+.car button {
+    padding: 10px 20px;
+    border-radius: 2.0em;
+    border: none;
+    background-color: hsl(0deg 0% 95%);
+    cursor: pointer;
+}
+
+.car button:hover {
+    color: hsl(0deg 0% 95%);
+    outline: 2px solid hsl(0deg 0% 95%);
+}
+
+button.orange {
+    color: hsl(31, 77%, 52%);
+}
+
+button.orange:hover {
+    background-color: hsl(31, 77%, 52%);
+}
+
+.light-dark-cyan {
+    background-color: hsl(184, 100%, 22%);
+}
+
+button.light-dark-cyan {
+    color: hsl(184, 100%, 22%);
+}
+
+button.light-dark-cyan:hover {
+    background-color: hsl(184, 100%, 22%);
+}
+
+.deep-dark-cyan {
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: .3em;
+    border-bottom-right-radius: .3em;
+}
+
+button.deep-dark-cyan {
+    color: hsl(179, 100%, 13%);
+}
+
+button.deep-dark-cyan:hover {
+    background-color: hsl(179, 100%, 13%);
+}
